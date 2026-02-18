@@ -2,6 +2,8 @@
 
 The OpenEnv community has built a catalog of ready-to-run environments that cover deterministic smoke tests, full developer workflows, and multi-step reasoning challenges. Explore the surface area below and jump directly into the guides for each environment.
 
+## Community Environments
+
 <div class="environment-grid">
   <div class="environment-card">
     <div class="environment-card__body">
@@ -132,6 +134,25 @@ The OpenEnv community has built a catalog of ready-to-run environments that cove
 
   <div class="environment-card">
     <div class="environment-card__body">
+      <span class="environment-card__tag">FinQA</span>
+      <p class="environment-card__description">
+        Financial question-answering on SEC 10-K filings with SQL tools, fuzzy numerical matching, and binary reward for RL training.
+      </p>
+    </div>
+    <div class="environment-card__links">
+      <a class="environment-card__icon" href="/OpenEnv/environments/finqa/" aria-label="FinQA docs">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M6 3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V9l-6-6H6zm8 1.5L18.5 9H14V4.5z" fill="currentColor"/>
+        </svg>
+      </a>
+      <a class="environment-card__icon environment-card__icon--hf" href="https://huggingface.co/spaces/bhavishya2895/finqa-env" target="_blank" rel="noreferrer noopener" aria-label="FinQA on Hugging Face">
+        <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="" aria-hidden="true" />
+      </a>
+    </div>
+  </div>
+
+  <div class="environment-card">
+    <div class="environment-card__body">
       <span class="environment-card__tag">TextArena</span>
       <p class="environment-card__description">
         Multi-task text arena for language-game competitions such as Wordle, reasoning puzzles, and program synthesis.
@@ -205,6 +226,82 @@ The OpenEnv community has built a catalog of ready-to-run environments that cove
 
   <div class="environment-card">
     <div class="environment-card__body">
+      <span class="environment-card__tag">Chess</span>
+      <p class="environment-card__description">
+        Chess RL environment powered by the moonfish engine with configurable opponents, PSQT evaluation, and full rules support.
+      </p>
+    </div>
+    <div class="environment-card__links">
+      <a class="environment-card__icon" href="/OpenEnv/environments/chess/" aria-label="Chess docs">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M6 3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V9l-6-6H6zm8 1.5L18.5 9H14V4.5z" fill="currentColor"/>
+        </svg>
+      </a>
+      <a class="environment-card__icon environment-card__icon--hf" href="https://huggingface.co/spaces/luccabb/moonfish_chess" target="_blank" rel="noreferrer noopener" aria-label="Chess on Hugging Face">
+        <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="" aria-hidden="true" />
+      </a>
+    </div>
+  </div>
+
+  <div class="environment-card">
+    <div class="environment-card__body">
+      <span class="environment-card__tag">Maze</span>
+      <p class="environment-card__description">
+        A grid maze RL environment where the agent must navigate from a start cell to an exit while avoiding walls.
+      </p>
+    </div>
+    <div class="environment-card__links">
+      <a class="environment-card__icon" href="/OpenEnv/environments/maze/" aria-label="Maze docs">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M6 3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V9l-6-6H6zm8 1.5L18.5 9H14V4.5z" fill="currentColor"/>
+        </svg>
+      </a>
+      <a class="environment-card__icon environment-card__icon--hf" href="https://huggingface.co/spaces/Jiyaaaaaa/maze_env" target="_blank" rel="noreferrer noopener" aria-label="Maze on Hugging Face">
+        <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="" aria-hidden="true" />
+      </a>
+    </div>
+  </div>
+
+  <div class="environment-card">
+    <div class="environment-card__body">
+      <span class="environment-card__tag">Unity</span>
+      <p class="environment-card__description">
+        A wrapper for Unity environments to bring different nice graphical simulation environment from Unity that supports Ml-Agents-envs.
+      </p>
+    </div>
+    <div class="environment-card__links">
+      <a class="environment-card__icon" href="/OpenEnv/environments/Unity/" aria-label="Unity docs">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M6 3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V9l-6-6H6zm8 1.5L18.5 9H14V4.5z" fill="currentColor"/>
+        </svg>
+      </a>
+      <a class="environment-card__icon environment-card__icon--hf" href="https://huggingface.co/spaces/Crashbandicoote2/unity_env" target="_blank" rel="noreferrer noopener" aria-label="Unity on Hugging Face">
+        <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="" aria-hidden="true" />
+      </a>
+    </div>
+  </div>
+
+  <div class="environment-card">
+    <div class="environment-card__body">
+      <span class="environment-card__tag">OpenApp</span>
+      <p class="environment-card__description">
+        A web application simulation environment for OpenEnv that wraps the OpenApps framework and BrowserGym.
+      </p>
+    </div>
+    <div class="environment-card__links">
+      <a class="environment-card__icon" href="/OpenEnv/environments/OpenApps/" aria-label="OpenApps docs">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M6 3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V9l-6-6H6zm8 1.5L18.5 9H14V4.5z" fill="currentColor"/>
+        </svg>
+      </a>
+      <a class="environment-card__icon environment-card__icon--hf" href="https://huggingface.co/spaces/Crashbandicoote2/Openapp_env" target="_blank" rel="noreferrer noopener" aria-label="OpenApps on Hugging Face">
+        <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="" aria-hidden="true" />
+      </a>
+    </div>
+  </div>
+
+  <div class="environment-card">
+    <div class="environment-card__body">
       <span class="environment-card__tag">Web Search</span>
       <p class="environment-card__description">
         Web search environment for RL research with configurable grids, partial observability, and customizable rewards.
@@ -222,13 +319,136 @@ The OpenEnv community has built a catalog of ready-to-run environments that cove
     </div>
   </div>
 
-</div>
+  <div class="environment-card">
+    <div class="environment-card__body">
+      <span class="environment-card__tag">BrowserGym</span>
+      <p class="environment-card__description">
+        Browser automation environment for web agents with DOM interaction, navigation, and multi-step task completion.
+      </p>
+    </div>
+    <div class="environment-card__links">
+      <a class="environment-card__icon" href="/OpenEnv/environments/browsergym/" aria-label="BrowserGym docs">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M6 3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V9l-6-6H6zm8 1.5L18.5 9H14V4.5z" fill="currentColor"/>
+        </svg>
+      </a>
+      <a class="environment-card__icon environment-card__icon--hf" href="https://huggingface.co/spaces/burtenshaw/browsergym-v2" target="_blank" rel="noreferrer noopener" aria-label="BrowserGym on Hugging Face">
+        <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="" aria-hidden="true" />
+      </a>
+    </div>
+  </div>
 
-> Want to publish your own environment? Head over to the [Build Your Own Environment](environment-builder.md) guide for a step-by-step walkthrough.
+  <div class="environment-card">
+    <div class="environment-card__body">
+      <span class="environment-card__tag">Wildfire</span>
+      <p class="environment-card__description">
+        Autonomous wildfire containment simulation with grid-based fire spread, weather dynamics, and resource-constrained control strategies for RL agents.
+      </p>
+    </div>
+    <div class="environment-card__links">
+      <a class="environment-card__icon" href="/OpenEnv/environments/wildfire/" aria-label="Wildfire docs">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M6 3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V9l-6-6H6zm8 1.5L18.5 9H14V4.5z" fill="currentColor"/>
+        </svg>
+      </a>
+      <a class="environment-card__icon environment-card__icon--hf" href="https://huggingface.co/spaces/shankerram3/wildfire_env" target="_blank" rel="noreferrer noopener" aria-label="Wildfire on Hugging Face">
+        <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="" aria-hidden="true" />
+      </a>
+    </div>
+  </div>
 
-## Community Environments
+  <div class="environment-card">
+    <div class="environment-card__body">
+      <span class="environment-card__tag">REPL</span>
+      <p class="environment-card__description">
+        Python REPL environment for training language models on code execution tasks. Based on the Recursive Language Models (RLM) paradigm
+      </p>
+    </div>
+    <div class="environment-card__links">
+      <a class="environment-card__icon" href="/OpenEnv/environments/repl/" aria-label="REPL docs">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M6 3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V9l-6-6H6zm8 1.5L18.5 9H14V4.5z" fill="currentColor"/>
+        </svg>
+      </a>
+      <a class="environment-card__icon environment-card__icon--hf" href="https://huggingface.co/spaces/openenv/repl" target="_blank" rel="noreferrer noopener" aria-label="REPL on Hugging Face">
+        <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="" aria-hidden="true" />
+      </a>
+    </div>
+  </div>
+  <div class="environment-card">
+    <div class="environment-card__body">
+      <span class="environment-card__tag">Terminal-Bench 2</span>
+      <p class="environment-card__description">
+        OpenEnv wrapper for Terminal-Bench 2 tasks
+      </p>
+    </div>
+    <div class="environment-card__links">
+      <a class="environment-card__icon" href="/OpenEnv/environments/tbench2/" aria-label="TB2 docs">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M6 3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V9l-6-6H6zm8 1.5L18.5 9H14V4.5z" fill="currentColor"/>
+        </svg>
+      </a>
+      <a class="environment-card__icon environment-card__icon--hf" href="https://huggingface.co/spaces/openenv/tbench2" target="_blank" rel="noreferrer noopener" aria-label="TB2 on Hugging Face">
+        <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="" aria-hidden="true" />
+      </a>
+    </div>
+  </div>
 
-<div class="environment-grid">
+  <div class="environment-card">
+    <div class="environment-card__body">
+      <span class="environment-card__tag">Julia</span>
+      <p class="environment-card__description">
+        Julia code execution environment for RL training with test result tracking, reward calculation, and process pooling for performance.
+      </p>
+    </div>
+    <div class="environment-card__links">
+      <a class="environment-card__icon" href="/OpenEnv/environments/julia/" aria-label="Julia docs">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M6 3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V9l-6-6H6zm8 1.5L18.5 9H14V4.5z" fill="currentColor"/>
+        </svg>
+      </a>
+      <a class="environment-card__icon environment-card__icon--hf" href="https://huggingface.co/spaces/openenv/julia_env" target="_blank" rel="noreferrer noopener" aria-label="Julia on Hugging Face">
+        <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="" aria-hidden="true" />
+      </a>
+    </div>
+  </div>
+
+  <div class="environment-card">
+    <div class="environment-card__body">
+      <span class="environment-card__tag">kernrl</span>
+      <p class="environment-card__description">
+        GPU kernel optimization environment for training LLMs to write fast CUDA/Triton kernels with real hardware feedback.
+      </p>
+    </div>
+    <div class="environment-card__links">
+      <a class="environment-card__icon" href="/OpenEnv/environments/kernrl/" aria-label="kernrl docs">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M6 3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V9l-6-6H6zm8 1.5L18.5 9H14V4.5z" fill="currentColor"/>
+        </svg>
+      </a>
+      <a class="environment-card__icon environment-card__icon--hf" href="https://huggingface.co/spaces/Infatoshi/kernrl" target="_blank" rel="noreferrer noopener" aria-label="kernrl on Hugging Face">
+        <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="" aria-hidden="true" />
+      </a>
+    </div>
+  </div>
+  <div class="environment-card">
+    <div class="environment-card__body">
+      <span class="environment-card__tag">Grid World</span>
+      <p class="environment-card__description">
+        A simple 5x5 grid world environment for testing and learning the OpenEnv framework.
+      </p>
+    </div>
+    <div class="environment-card__links">
+      <a class="environment-card__icon" href="https://github.com/yuvrajpant56/OpenEnv/blob/feat/fresh-grid-world/envs/grid_world_env/README.md" target="_blank" rel="noreferrer noopener" aria-label="Grid World docs">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M6 3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V9l-6-6H6zm8 1.5L18.5 9H14V4.5z" fill="currentColor"/>
+        </svg>
+      </a>
+      <a class="environment-card__icon environment-card__icon--hf" href="https://huggingface.co/spaces/yuvrajpant56/grid_world_env" target="_blank" rel="noreferrer noopener" aria-label="Grid World on Hugging Face">
+        <img src="https://huggingface.co/front/assets/huggingface_logo_noborder.svg" alt="" aria-hidden="true" />
+      </a>
+    </div>
+  </div>
   <div class="environment-card">
     <div class="environment-card__body">
       <span class="environment-card__tag">RLVE Gym</span>
@@ -247,5 +467,64 @@ The OpenEnv community has built a catalog of ready-to-run environments that cove
       </a>
     </div>
   </div>
+
+  <div class="environment-card">
+    <div class="environment-card__body">
+      <span class="environment-card__tag">Reasoning Gym</span>
+      <p class="environment-card__description">
+        Procedural dataset generators providing 100+ reasoning tasks across algebra, arithmetic, geometry, graph theory, logic, and games with adjustable complexity and algorithmic verification.
+      </p>
+    </div>
+    <div class="environment-card__links">
+      <a class="environment-card__icon" href="/OpenEnv/environments/reasoning_gym/" aria-label="Reasoning Gym docs">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M6 3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V9l-6-6H6zm8 1.5L18.5 9H14V4.5z" fill="currentColor"/>
+        </svg>
+      </a>
+      <a class="environment-card__icon environment-card__icon--hf" href="https://huggingface.co/spaces/zafstojano/reasoning_gym" target="_blank" rel="noreferrer noopener" aria-label="Reasoning Gym on Hugging Face">
+        <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="" aria-hidden="true" />
+      </a>
+    </div>
+  </div>
+
+  <div class="environment-card">
+    <div class="environment-card__body">
+      <span class="environment-card__tag">Calendar Gym</span>
+      <p class="environment-card__description">
+        This environment exposes a Calendar Gym tools through the OpenEnv reset/step/state interface. The server runs a FastAPI app that serves the OpenEnv endpoints.
+      </p>
+    </div>
+    <div class="environment-card__links">
+      <a class="environment-card__icon" href="https://huggingface.co/spaces/TuringEnterprises/calendar-gym/blob/main/README.md" target="_blank" rel="noreferrer noopener" aria-label="Calendar Gym docs">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M6 3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V9l-6-6H6zm8 1.5L18.5 9H14V4.5z" fill="currentColor"/>
+        </svg>
+      </a>
+      <a class="environment-card__icon environment-card__icon--hf" href="https://huggingface.co/spaces/TuringEnterprises/calendar-gym" target="_blank" rel="noreferrer noopener" aria-label="Calendar Gym on Hugging Face">
+        <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="" aria-hidden="true" />
+      </a>
+    </div>
+  </div>
+
+  <div class="environment-card">
+    <div class="environment-card__body">
+      <span class="environment-card__tag">dm_control</span>
+      <p class="environment-card__description">
+        MuJoCo-based continuous control tasks from DeepMind's dm_control suite — cartpole, hopper, quadruped, walker, and more.
+      </p>
+    </div>
+    <div class="environment-card__links">
+      <a class="environment-card__icon" href="/OpenEnv/environments/dm-control/" aria-label="dm_control docs">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M6 3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V9l-6-6H6zm8 1.5L18.5 9H14V4.5z" fill="currentColor"/>
+        </svg>
+      </a>
+      <a class="environment-card__icon environment-card__icon--hf" href="https://huggingface.co/spaces/mreso/dm_control_env" target="_blank" rel="noreferrer noopener" aria-label="dm_control on Hugging Face">
+        <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="" aria-hidden="true" />
+      </a>
+    </div>
+  </div>
+
 </div>
 
+> Want to publish your own environment? Head over to the [Build Your Own Environment](environment-builder.md) guide for a step-by-step walkthrough.
